@@ -38,7 +38,7 @@ export default function LandingPage() {
             <Link href="#" className="hover:text-white transition-colors">
               API
             </Link>
-            <Link href="#" className="hover:text-white transition-colors">
+            <Link href="/dashboard" className="hover:text-white transition-colors">
               Dashboard
             </Link>
           </div>
@@ -342,7 +342,7 @@ export default function LandingPage() {
             <Link href="#" className="hover:text-white transition-colors">
               Documentation
             </Link>
-            <Link href="#" className="hover:text-white transition-colors">
+            <Link href="/dashboard" className="hover:text-white transition-colors">
               Dashboard
             </Link>
             <Link href="#" className="hover:text-white transition-colors">

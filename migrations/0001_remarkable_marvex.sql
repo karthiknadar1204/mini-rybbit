@@ -1,0 +1,22 @@
+CREATE TABLE "sessions" (
+	"id" serial PRIMARY KEY NOT NULL,
+	"website_id" integer NOT NULL,
+	"visitor_id" varchar(255),
+	"session_id" varchar(255) NOT NULL,
+	"entry_page" varchar(2048),
+	"entry_time" timestamp NOT NULL,
+	"last_heartbeat_at" timestamp NOT NULL,
+	"referrer" varchar(2048),
+	"utm_source" varchar(255),
+	"utm_campaign" varchar(255),
+	"device_size" varchar(32),
+	"os" varchar(128),
+	"browser" varchar(128),
+	"country" varchar(128),
+	"country_code" varchar(16),
+	"region" varchar(128),
+	"city" varchar(128),
+	"exit_page" varchar(2048),
+	"exit_time" timestamp,
+	"active_time" integer
+);
